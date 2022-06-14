@@ -12,7 +12,9 @@ import machine
 import DS1302
 #库引用完毕
 
-
+ssid=""
+wifipassword=""
+apikey=""
 
 global online_status
 d = dht.DHT11(machine.Pin(16))#dht11
@@ -121,7 +123,7 @@ def init_clock():
     second=ds.Second()
     rtc = RTC()
     rtc.datetime((year, month, date,weekday, time, minute, second, 0))
-do_connect("TP-LINK_46D2","k11223wwdz")
+do_connect(ssid,wifipassword)
 
 if not sta_if.isconnected():
     print("检测无网")
