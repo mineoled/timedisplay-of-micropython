@@ -1,4 +1,6 @@
 # timedisplay-of-micropython
+使用esp8266作为开发底板
+
 micropython初学成品
 
 功能：
