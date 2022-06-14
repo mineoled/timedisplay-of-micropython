@@ -12,10 +12,24 @@ micropython初学成品
 字体文件来自 https://gitee.com/walkline/micropython-new-fontlib#https://gitee.com/walkline/fontmaker-client
 
 默认接线顺序：
+
+
 #dht11数据引脚--->d0
+
+
 #oled sda --->d2
+
+
 #oled scl --->d1
+
+
 #ds1302 clk ---d5
+
+
 #ds1302 dat ---d7
+
+
 #ds1302 cs ---d6
+
+
 
