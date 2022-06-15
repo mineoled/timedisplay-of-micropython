@@ -56,3 +56,5 @@ loacation="" #天气预报用，地点
 3.使用项目中的upload.sh(未验证可用性)或upload.bat进行上传代码，
 
 或自行上传
+
+(使用https://gitee.com/walkline/a-batch-tool)
