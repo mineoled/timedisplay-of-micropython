@@ -38,13 +38,13 @@ buzzer库来自https://github.com/Wind-stormger/micropython-uasycio-buzzer
 
 2.修改main.py
 
-ssid=""
+ssid="" #wifi名称
 
+password="" #wifi密码
 
-password=""
+apisc="" #api密钥
 
-
-apisc=""
+loacation="" #天气预报用，地点
 
 3.使用项目中的upload.sh(未验证可用性)或upload.bat进行上传代码，
 
