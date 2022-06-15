@@ -34,9 +34,14 @@ buzzer库来自https://github.com/Wind-stormger/micropython-uasycio-buzzer
 
 
 # 如何使用
+首先
+```
+git clone https://github.com/mineoled/timedisplay-of-micropython
+```
+
 1.在esp8266/esp32/pyboard板中烧录micropython固件
 
-2.修改main.py
+2.打开项目文件，修改main.py
 
 ssid="" #wifi名称
 
