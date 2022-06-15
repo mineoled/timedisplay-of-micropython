@@ -10,6 +10,7 @@ micropython初学成品
 4.不联网使用（ds1302）
 5.oled屏显示（ssd1306）
 字体文件来自 https://gitee.com/walkline/micropython-new-fontlib#https://gitee.com/walkline/fontmaker-client
+buzzer库来自https://github.com/Wind-stormger/micropython-uasycio-buzzer
 
 默认接线顺序：
 
@@ -32,4 +33,19 @@ micropython初学成品
 #ds1302 cs ---d6
 
 
+# 如何使用
+1.在esp8266/esp32/pyboard板中烧录micropython固件
 
+2.修改main.py
+
+ssid=""
+
+
+password=""
+
+
+apisc=""
+
+3.使用项目中的upload.sh(未验证可用性)或upload.bat进行上传代码，
+
+或自行上传
