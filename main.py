@@ -42,7 +42,8 @@ sta_if = network.WLAN(network.STA_IF)
 ssid=""
 password=""
 apisc=""
-
+loacation="beijing"
+#loacation填中文或拼音均可，用于天气预报
 
 def do_connect(ssid,password):
     
@@ -176,7 +177,7 @@ def get_weather():
     import urequests
     global firstday
     global secondday
-    Url = 'https://api.seniverse.com/v3/weather/daily.json?key='+apisc+'&location=hefei&language=zh-Hans&unit=c&start=1&days=3'
+    Url = 'https://api.seniverse.com/v3/weather/daily.json?key='+apisc+'&location='+loacation+'&language=zh-Hans&unit=c&start=1&days=3'
     r = urequests.get(Url)
     next1=r.json()['results'][0]['daily'][0]
     next2=r.json()['results'][0]['daily'][1]
