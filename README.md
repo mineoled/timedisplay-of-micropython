@@ -33,6 +33,8 @@ buzzer库来自https://github.com/Wind-stormger/micropython-uasycio-buzzer
 #ds1302 cs ---d6
 
 
+（可能有误，以代码为准）
+
 # 如何使用
 首先
 ```
